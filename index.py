@@ -9,7 +9,7 @@ load_dotenv()
 
 # ====================== 【你的信息已填好】 ======================
 ONEAPI_BASE_URL = "https://oneapi.mikesolar.cn/v1"
-ONEAPI_API_KEY = "sk-zewJTkaAdzhVNLzHC295F20b36114060999a9f0d354eB090"
+ONEAPI_API_KEY = os.getenv("ONEAPI_API_KEY")
 ONEAPI_MODEL = "gpt-3.5-turbo"
 # =================================================================
 
